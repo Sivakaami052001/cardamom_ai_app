@@ -1,0 +1,16 @@
+{
+  "project": "cardamom_ai_app ",
+  "platform": "ios",
+  "github": {
+    "owner": "Sivakaami052001",
+    "repo": "cardamom_ai_app"
+  },
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "mobai": {}
+}
