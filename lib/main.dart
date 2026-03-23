@@ -81,8 +81,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   late AnimationController _pulseController;
   late Animation<double> _pulseAnimation;
 
-  final String backendUrl = "http://192.168.29.65:8000/measure";
-
+  final String backendUrl = "http://192.168.1.34:8000/measure";
   @override
   void initState() {
     super.initState();
@@ -327,7 +326,7 @@ Average Width: ${jsonData['avg_width'].toStringAsFixed(2)} mm
 
                     // Processed Image
                     if (processedImage != null)
-                      Card(
+                      Card( 
                         elevation: 16,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(32),
